@@ -1,0 +1,32 @@
+.cnt {
+    width: 50%;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
+
+.foott{
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.heead{
+    width: 100%;
+    background-color: rgb(98, 220, 37);
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.imgg{
+    width: 20%;
+}
